@@ -2,6 +2,10 @@ import random
 r = random.randint(1,100)
 
 count = 0
+start = input("Enter the start of the random number range")
+end = input("Enter the end of the random number range")
+start = int(start)
+end = int(end)
 
 while True:
 	count = count + 1 #count += 1
